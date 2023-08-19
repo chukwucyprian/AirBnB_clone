@@ -1,99 +1,61 @@
 .filters {
-    background-color: #fff;
-    height: 70px;
-    width: 100%;
-    border: 1px solid #DDD;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-}
-.filters button {
-    margin-left: auto;
-    font-size: 18px;
-    color: #FFF;
-    height: 48px;
-    width: 20%;
-    border: 0;
-    border-radius: 4px;
-    margin-right: 30px;
-    text-align: center;
-    background-color: #ff5a5f;
-    cursor: pointer;
-}
-.filters button:hover {
-    opacity: 90%;
-}
-.filters li {
-    list-style: none;
-}
-.locations {
-    height: 100%;
-    width: 25%;
-    border-right: 1px solid #DDD;
-    display: block;
-    position: relative;
-}
-.locations .filter-box {
-    line-height: 1.2;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
-}
-.popover {
-    display: none;
-    background-color: #FAFAFA;
-    border: 1px solid #DDD;
-    border-radius: 4px;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;	
 }
 
-.locations .location {
-    margin: 20px 0;
+.locations {
+	display: inline-block;
+	vertical-align: middle;
+
+	height: 100%;
+	width: 25%;
+
+	margin-left: 45px;
+	border-right: 1px solid #DDDDDD;
 }
-.locations .popover h2 {
-    font-size: 16px;
-    padding: 0 15px;
-}
-.locations .popover li {
-    padding-left: 30px;
-}
-.locations:hover .popover {
-    display: block;
-}
-.locations h3,
-.amenities h3 {
-    font-weight: 600;
-}
-.locations h4,
-.amenities h4 {
-    font-weight: 400;
-    font-size: 14px;
-}
+
 .amenities {
-    height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+
+	height: 100%;
     width: 25%;
-    line-height: 1.2;
-    display: block;
-    position: relative;
+
+	margin-left: 45px;
 }
-.amenities .filter-box {
-    line-height: 1.2;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
+
+h3 {
+	font-weight: 600;
+	margin-top: 12px;
+	margin-bottom: 5px;	
 }
-.amenities:hover .popover {
-    display: block;
+
+h4 {
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 12px;
 }
-.amenities .popover ul {
-    padding: 15px;
-    line-height: 1.5;
+
+button {
+	color: #FFFFFF;
+	font-size: 18px;
+	
+	height: 48px;
+	width: 20%;
+	background-color: #FF5A5F;
+	border-style: none;
+	border-radius: 4px;
+
+	float: right;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	margin-right: 30px;
+}
+
+button:hover {
+	opacity: 90%;
 }
