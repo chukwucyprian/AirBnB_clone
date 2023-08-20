@@ -32,7 +32,9 @@
 	list-style-type: none;
 	display: none;
 	background-color: #FAFAFA;
+	z-index: 1;
 	width: 100%;
+	position: absolute;
 
 	margin-left: -1px;
 	margin-top: 8px;

@@ -30,3 +30,7 @@ article h2 {
 	padding: 0px;
 	margin: auto;
 }
+.suite {
+    border-color: none;
+    border-radius: 4px;
+}
