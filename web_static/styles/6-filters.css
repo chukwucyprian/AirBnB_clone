@@ -5,6 +5,7 @@
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	
 }
 
 .locations {
@@ -41,11 +42,13 @@
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 }
-
+div:hover > .popover {
+    display: block;
+    cursor: pointer;
+    
+  }
 .locations:hover .popover {
 	display: inline-block;
-	
-	
 }
 
 .amenities:hover .popover {
@@ -55,9 +58,6 @@
     font-size: 14px;
 	width: 20%;
 	height: 35%;
-	
-	
-
 	
 }
 
